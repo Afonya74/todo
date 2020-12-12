@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.1-web/css/all.min.css">
+</head>
+
+<body>
+    <h1 class="header">Daily To-Do list manager</h1>
+
+    <div class="sheet">
+        <div class="container">
+            <h3 class="body__day"></h3>
+            <h3 class="body__date"></h3>
+            <div class="body-todo-insert">
+                <input class="todo__input" type="text" placeholder="Take the garbage out">
+
+                <button class="todo__btn">
+            <i class="fa fa-plus"></i>
+        </button>
+            </div>
+
+            <p> You have
+                <span class="todo__number">0</span> pending items
+            </p>
+
+            <div class="todo__list--pending">
+
+            </div>
+            <div class="completed__section">
+                <p>Completed tasks:
+                    <span class="completed__number">0</span> %
+                </p>
+                <div class="todo__list__done">
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="todo__footer">
+            <button class="footer__btn-complete">
+                Show Complete
+            </button>
+            <button class="footer__btn-clear">
+                Clear All
+            </button>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    background-color: rgb(230, 104, 104);
+}
+
+.body__day,
+.body__date {
+    color: rgb(230, 104, 104);
+}
+
+.header {
+    color: white;
+}
+
+.sheet {
+    margin: auto;
+    background-color: rgb(231, 231, 231);
+    width: 40%;
+    text-align: center;
+}
+
+.todo__input {
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    border: solid 1px white;
+}
+
+.todo__input:focus {
+    outline: none;
+    border: solid 1px gray;
+}
+
+.todo__btn {
+    background-color: blue;
+    border-radius: 10%;
+    height: 33px;
+    width: 50px;
+    outline: none;
+    border: 0;
+}
+
+.btn_trash {
+    background-color: red;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.fa.fa-trash,
+.fa.fa-plus {
+    color: white;
+}
+
+.completed__section {
+    display: none;
+}
+
+.todo__list__done {
+    text-decoration: line-through;
+}
+
+.todoItemPending {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(196, 221, 230);
+    height: 30px;
+    width: 250px;
+    border: solid 1px gray;
+}
+
+.todoItemPending button,
+.todoItemCompleted button {
+    visibility: hidden;
+}
+
+.todoItemPending:hover button,
+.todoItemCompleted:hover button {
+    visibility: visible;
+}
+
+.todoItemCompleted {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    background-color: lightgray;
+    height: 30px;
+    width: 250px;
+    border: solid 1px gray;
+}
+
+.footer__btn-complete,
+.footer__btn-clear {
+    height: 15px;
+    margin: 30px;
+    outline: none;
+    border: 0;
+}
